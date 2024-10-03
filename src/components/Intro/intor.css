@@ -150,6 +150,10 @@
         width: 14px;    /* Further reduce image size */
         height: 14px;
       }
+       .type{
+       color: white;
+     }
+
 
       
     
