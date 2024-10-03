@@ -83,12 +83,13 @@
 
 
 .navbar2{
-    position: fixed;
+    position: sticky;
+
 
 }
 /* Menu icon */
 .modMenu {
-  
+     position: fixed;
     display: none;
     object-fit: cover;
     cursor: pointer;
