@@ -1,0 +1,115 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.skilltitle{
+
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.skilldesc{
+    margin: 0px 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 51rem;
+    padding: 1 2rem;
+
+}
+.skillsbars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+
+
+}
+.skillbar{
+    display: flex;
+    margin: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 4px 5px 16px 8px rgba(67, 66, 66, 0.2);
+
+
+}
+.skillbar:hover{
+    background: rgba(5, 134, 215, 0.2);;
+}
+
+.skillbarimg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+
+}
+.skillbartext{
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+
+@media screen and (max-width:720) {
+    .skillbartext>p{
+        font-size: 2vw;
+    }
+    
+}
+
+@media screen and (max-width:480) {
+    .skillbartext>p{
+        font-size: 3vw;
+    }
+    .skillbar{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillbartext>h2{
+        font-size: 2vw;
+        
+    }
+    
+}
+
+.imageskillbarscrool {
+   
+    margin: 70px;
+    display: flex;
+    /* overflow: hidden; */
+    white-space: nowrap; /* Prevents wrapping of images */
+    width: 100%; /* Set width of the scrolling area */
+  
+  }
+  
+  .scroll-image {
+    margin: 10px;
+    height: 100px; /* Adjust height as necessary */
+    margin-right: 10px; /* Space between images */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%); /* Start from the right */
+    }
+    to {
+      transform: translateX(-100%); /* End on the left */
+    }
+  }
+  
+  .imageskillbarscrool {
+    animation: scroll 20s linear infinite; /* Duration can be adjusted */
+  }

@@ -1,0 +1,148 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pad: 0 1rem;
+}
+.workstitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+   
+
+
+}
+.livetosee{
+    margin: 1rem 10px;
+    font-size: 3rem;
+    color: #13c4ff;
+
+
+}
+.workdesc{
+    margin: 0px 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 45rem;
+
+}
+.workimgs{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100vw;
+    height: auto;
+
+    
+
+}
+.workimg{
+    object-fit: cover;
+    height:20rem;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 3px 7px;
+    background-color: rgb(179, 179, 179);
+
+
+}
+
+.workbtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: #0094f0;
+    border: 1px solid rgb(4, 92, 140);
+    color: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+.workbtn:hover{
+    background: rgb(50, 50, 50);
+
+
+}
+
+
+
+
+  /* Basic card container style */
+  .card {
+    margin: 0rem 2px;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+/* Image style */
+.card img {
+
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+
+/* Text overlay style (initially hidden) */
+.card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 52, 52, 0.6);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+/* Hover effect - Show the overlay and scale the image */
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+
+
+
+@media screen and (max-width:780) {
+
+   
+    .workimg{
+    
+        height:10rem;
+    
+    
+    
+    }
+
+ 
+
+   
+   
+ 
+
+  
+}
+
+
+
+
+

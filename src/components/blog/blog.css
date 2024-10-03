@@ -1,0 +1,63 @@
+.myblogss {
+    overflow: hidden; /* To hide the overflow during the scrolling */
+    margin: 0 auto;
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pad: 0 1rem;
+    margin-bottom: 40px;
+  }
+  .clientHead{
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+  
+  .myallblogs {
+    position: relative;
+   
+
+  }
+  
+  .channel {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(182, 174, 174);
+  }
+
+  .channel1, .channel2 {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    animation: scroll 40s linear infinite; /* Scroll animation */
+  }
+  
+  .ratio {
+    /* padding: 10px; */
+    margin: 5px;
+    position: relative;
+    padding-bottom: 10%; 
+    height: 0;
+    overflow: hidden;
+
+  }
+  
+  .blogvideo {
+    padding: 5px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: auto;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-85%); /* End on the left */
+    }
+  }
