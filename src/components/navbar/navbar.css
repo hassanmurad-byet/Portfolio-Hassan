@@ -89,7 +89,7 @@
 }
 /* Menu icon */
 .modMenu {
-     display: flex;
+    display:none;
     justify-content: center;
     position: fixed;
     top: 0;
