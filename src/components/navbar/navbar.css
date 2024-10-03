@@ -89,12 +89,15 @@
 }
 /* Menu icon */
 .modMenu {
-     position: fixed;
-    display: none;
-    object-fit: cover;
-    cursor: pointer;
+     display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    margin: 1rem;
     z-index: 1; 
+    cursor: pointer;
     height: 2rem;
+    width: 2rem;
 }
 .modMenus{
     display: flex;
