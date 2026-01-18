@@ -55,6 +55,16 @@
     /* color: white */
 
 }
+
+.education-info {
+    font-size: 0.9rem;
+    background: rgba(25, 174, 254, 0.15);
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 3px solid rgb(25, 174, 254);
+    margin-top: 15px;
+    color: #333;
+}
 .btndinv{
     
 }
